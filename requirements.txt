@@ -9,7 +9,7 @@ alpha_vantage==2.3.1
 newsapi-python==0.2.7
 
 # Bibliotecas para desenvolvimento do AI Agent
-FinRL==0.3.8
+FinRL==0.3.7
 gym==0.26.2
 stable-baselines3==2.2.1
 
@@ -19,7 +19,7 @@ transformers==4.39.3
 textblob==0.18.0
 
 # Framework para construção da API
-fastapi==0.110.0
+fastapi==0.100.0  # Atualizando para versão compatível com pydantic 2.x
 uvicorn==0.29.0
 
 # Bibliotecas adicionais para visualização e utilitários
@@ -28,4 +28,11 @@ seaborn==0.13.2
 scikit-learn==1.4.1.post1
 
 # Para validação de dados com Pydantic
-pydantic==1.11.0
+pydantic==2.7.4  # Versão compatível com o langchain-anthropic
+
+# Para carregamento de variáveis de ambiente
+python-dotenv==1.0.0
+
+# Bibliotecas para integração com LLMs
+langchain-openai==0.3.9
+langchain-anthropic==0.3.9
