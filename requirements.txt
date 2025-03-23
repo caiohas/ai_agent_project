@@ -1,0 +1,31 @@
+# Bibliotecas para manipulação de dados e cálculos
+numpy==1.26.4
+pandas==2.2.1
+
+# Bibliotecas para coleta de dados financeiros
+yfinance==0.2.37
+ccxt==4.1.67
+alpha_vantage==2.3.1
+newsapi-python==0.2.7
+
+# Bibliotecas para desenvolvimento do AI Agent
+FinRL==0.3.8
+gym==0.26.2
+stable-baselines3==2.2.1
+
+# Bibliotecas para análise de texto e NLP
+nltk==3.8.1
+transformers==4.39.3
+textblob==0.18.0
+
+# Framework para construção da API
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Bibliotecas adicionais para visualização e utilitários
+matplotlib==3.8.3
+seaborn==0.13.2
+scikit-learn==1.4.1.post1
+
+# Para validação de dados com Pydantic
+pydantic==1.11.0
